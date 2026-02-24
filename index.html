@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rho x Atlanta</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{--bg:#FAFAFA;--wh:#FFF;--bk:#0D0D0D;--gr:#1B4D3E;--gd:#1B4D3E;--ga:#00B37D;--gl:rgba(27,77,62,0.08);--glr:rgba(27,77,62,0.04);--tx:#1A1A1A;--mu:#6B7280;--su:#9CA3AF;--bo:#E5E7EB;}
+body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--tx);-webkit-font-smoothing:antialiased;}
+.H{background:var(--bk);color:#fff;padding:64px 24px 72px;text-align:center;position:relative;overflow:hidden;}
+.H::before{content:'';position:absolute;top:-40%;left:-20%;width:140%;height:180%;background:radial-gradient(ellipse at 30% 20%,rgba(27,77,62,0.18) 0%,transparent 50%),radial-gradient(ellipse at 70% 80%,rgba(0,179,125,0.08) 0%,transparent 50%);pointer-events:none;}
+.Hi{max-width:680px;margin:0 auto;position:relative;z-index:1;}
+.Hb{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.12);border-radius:100px;padding:6px 16px;font-size:12px;font-weight:600;letter-spacing:0.5px;color:rgba(255,255,255,0.7);margin-bottom:24px;}
+.Hb .dt{width:6px;height:6px;border-radius:50%;background:var(--ga);animation:p 2s ease infinite;}
+.H h1{font-size:48px;font-weight:900;letter-spacing:-2px;line-height:1.1;margin-bottom:12px;}
+.H h1 span{background:linear-gradient(135deg,#00D4A1,#00B37D);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.Hs{font-size:15px;line-height:1.8;color:rgba(255,255,255,0.6);max-width:560px;margin:0 auto 28px;}
+.Hp{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;}
+.Hp a{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:600;letter-spacing:0.8px;text-transform:uppercase;color:rgba(255,255,255,0.4);text-decoration:none;transition:color 0.2s;}
+.Hp a:hover{color:var(--ga);}
+.Hp .pp{width:18px;height:18px;border-radius:4px;background:rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;font-size:9px;color:rgba(255,255,255,0.5);}
+.C{max-width:720px;margin:0 auto;padding:0 24px;}
+.S{padding:56px 0;}
+.Sl{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--gr);margin-bottom:8px;}
+.St{font-size:28px;font-weight:800;letter-spacing:-1px;line-height:1.3;margin-bottom:8px;}
+.Sd{font-size:15px;color:var(--mu);line-height:1.7;max-width:520px;}
+.Ai{padding:48px 0 0;border-bottom:1px solid var(--bo);}
+.Ag{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px;padding-bottom:48px;}
+.Sc{background:var(--wh);border:1px solid var(--bo);border-radius:14px;padding:20px 22px;}
+.Sn{font-size:24px;font-weight:800;letter-spacing:-0.5px;color:var(--gr);}
+.Sla{font-size:13px;color:var(--mu);margin-top:4px;line-height:1.5;}
+.T{display:flex;flex-direction:column;gap:20px;margin-top:28px;}
+.E{background:var(--wh);border:1px solid var(--bo);border-radius:16px;padding:28px;transition:all 0.25s;}
+.E:hover{border-color:var(--ga);box-shadow:0 4px 24px rgba(27,77,62,0.1);}
+.Et{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px;}
+.Ed{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--mu);}
+.Eb{display:inline-flex;align-items:center;gap:5px;background:var(--gl);color:var(--gr);font-size:11px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;padding:4px 12px;border-radius:100px;}
+.E h3{font-size:20px;font-weight:800;letter-spacing:-0.5px;margin-bottom:14px;}
+.E h3 span{color:var(--gr);}
+.Eds{display:flex;flex-direction:column;gap:8px;}
+.Er{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--mu);line-height:1.5;}
+.Er .ic{flex-shrink:0;width:18px;text-align:center;opacity:0.6;}
+.Er a{color:var(--gr);text-decoration:none;border-bottom:1px solid rgba(27,77,62,0.2);transition:all 0.2s;}
+.Er a:hover{border-color:var(--gr);}
+.dep{background:linear-gradient(135deg,var(--glr),var(--wh));}
+.Hg{display:flex;flex-direction:column;gap:12px;margin-top:28px;}
+.Hc{display:flex;align-items:center;gap:16px;background:var(--wh);border:1px solid var(--bo);border-radius:14px;padding:16px 20px;text-decoration:none;transition:all 0.25s;}
+.Hc:hover{border-color:var(--ga);box-shadow:0 4px 20px rgba(27,77,62,0.1);transform:translateY(-1px);}
+.Ha{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;color:#fff;flex-shrink:0;}
+.Hin{flex:1;}
+.Hn{font-size:15px;font-weight:700;color:var(--bk);}
+.Hr{font-size:12px;color:var(--mu);margin-top:2px;}
+.Hl{font-size:11px;font-weight:600;color:var(--su);flex-shrink:0;letter-spacing:0.5px;}
+.Fg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px;}
+.F{background:var(--wh);border:1px solid var(--bo);border-radius:14px;padding:22px;}
+.Fi{font-size:20px;margin-bottom:10px;}
+.Ft{font-size:14px;font-weight:700;color:var(--bk);margin-bottom:4px;}
+.Fd{font-size:13px;color:var(--mu);line-height:1.6;}
+.Rl{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--wh);border:1px solid var(--bo);border-radius:12px;text-decoration:none;transition:all 0.25s;}
+.Rl:hover{border-color:var(--ga);box-shadow:0 4px 16px rgba(27,77,62,0.08);transform:translateY(-1px);}
+.Rn{font-size:14px;font-weight:600;color:var(--tx);}
+.Rc{font-size:12px;color:var(--gr);font-weight:600;}
+.Cs{background:var(--bk);color:#fff;border-radius:20px;padding:48px 36px;text-align:center;margin:0 0 24px;}
+.Cs h2{font-size:28px;font-weight:800;letter-spacing:-1px;margin-bottom:10px;}
+.Cs p{font-size:14px;color:rgba(255,255,255,0.6);margin-bottom:24px;line-height:1.7;}
+.Cb{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+.B{display:inline-flex;align-items:center;gap:6px;padding:12px 24px;border-radius:100px;font-size:14px;font-weight:600;text-decoration:none;transition:all 0.3s;border:none;cursor:pointer;}
+.Bg{background:var(--ga);color:#fff;}
+.Bg:hover{background:#00CC8E;transform:translateY(-1px);box-shadow:0 4px 20px rgba(0,179,125,0.35);}
+.Bo{background:transparent;color:rgba(255,255,255,0.7);border:1px solid rgba(255,255,255,0.2);}
+.Bo:hover{border-color:var(--ga);color:var(--ga);}
+.Ch{text-align:center;margin:0 0 56px;padding:28px 24px;background:var(--wh);border:1px solid var(--bo);border-radius:14px;}
+.Cht{font-size:15px;font-weight:600;color:var(--tx);margin-bottom:4px;}
+.Chd{font-size:13px;color:var(--mu);margin-bottom:16px;}
+.Bc{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:100px;font-size:13px;font-weight:600;text-decoration:none;background:var(--wh);color:var(--gr);border:1px solid var(--gr);transition:all 0.3s;}
+.Bc:hover{background:var(--gl);transform:translateY(-1px);}
+.Fo{text-align:center;padding:32px 0 56px;border-top:1px solid var(--bo);}
+.Fo p{font-size:12px;color:var(--su);line-height:1.8;}
+.Fo a{color:var(--gr);text-decoration:none;}
+@keyframes p{0%,100%{opacity:1;}50%{opacity:0.4;}}
+@media(max-width:520px){.H h1{font-size:34px;}.Ag,.Fg{grid-template-columns:1fr;}.H{padding:48px 20px 56px;}.Cs{padding:36px 24px;border-radius:16px;}}
+</style>
+</head>
+<body>
+
+<div class="H">
+<div class="Hi">
+<div class="Hb"><span class="dt"></span>March 9 – 13, 2026</div>
+<h1>Rho <span>×</span> Atlanta</h1>
+<p class="Hs">Founded in 2018 by Everett Cook, <strong>Rho</strong> is a modern business banking platform on a mission to make finance frictionless for organizations. Trusted by companies like Glimpse, Integral, Perplexity, and thousands of other startups, Rho brings commercial banking, corporate cards, treasury, expense management, and bill pay automation into one integrated platform — so founders can focus on building, not banking.</p>
+<p class="Hs" style="margin-top:0;">This week, we're expanding Rho's presence across <strong>Atlanta</strong> — deepening VC partnerships and ensuring early and growth-stage founders have access to a relationship-driven banking experience that scales with them.</p>
+<div class="Hp">
+<a href="https://www.drivecapital.com" target="_blank"><span class="pp">D</span> Drive Capital</a>
+<a href="https://www.valor.vc" target="_blank"><span class="pp">V</span> Valor Ventures</a>
+<a href="https://www.collab.capital/" target="_blank"><span class="pp">C</span> Collab Capital</a>
+<a href="https://sociumventures.com/" target="_blank"><span class="pp">S</span> Socium Ventures</a>
+<a href="https://coxcleantech.com/" target="_blank"><span class="pp">C</span> Cox Cleantech</a>
+<a href="https://engage.vc/" target="_blank"><span class="pp">E</span> Engage VC</a>
+<a href="https://www.neighborhoodstudios.com/" target="_blank"><span class="pp">N</span> Neighborhood Studios</a>
+</div>
+</div>
+</div>
+
+<div class="C">
+
+<div class="Ai">
+<div class="Sl">Why Rho</div>
+<div class="St">The banking platform built for ambitious founders</div>
+<div class="Sd">One platform to manage end-to-end startup finances. Open accounts in minutes, earn yield on idle cash, and manage cards, bills, and expenses — all in one place.</div>
+<div class="Ag">
+<div class="Sc"><div class="Sn">$0</div><div class="Sla">ACH, wire, and platform fees</div></div>
+<div class="Sc"><div class="Sn">$75M</div><div class="Sla">FDIC insurance coverage</div></div>
+<div class="Sc"><div class="Sn">2%</div><div class="Sla">Cashback on Rho cards</div></div>
+<div class="Sc"><div class="Sn">3.6-3.9%</div><div class="Sla">Treasury yield on idle cash</div></div>
+</div>
+</div>
+
+<div class="S">
+<div class="Sl">This Week</div>
+<div class="St">Atlanta Event Schedule</div>
+<div class="Sd">Join us for dinners, coffee, and conversations with the investors and founders shaping Atlanta's startup ecosystem.</div>
+<div class="T">
+<div class="E"><div class="Et"><span class="Ed">Monday, March 9</span><span class="Eb">🍽️ Founder Dinner</span></div><h3>Rho <span>×</span> Valor Ventures</h3><div class="Eds"><div class="Er"><span class="ic">📍</span><span>Canoe — 4199 Paces Ferry Rd SE, Atlanta, GA</span></div><div class="Er"><span class="ic">🕡</span><span>6:30 PM – 9:30 PM</span></div><div class="Er"><span class="ic">👥</span><span>Hosted by William Leonard (Valor) &amp; Olivia Harbin (Rho)</span></div><div class="Er"><span class="ic">🔗</span><a href="https://www.rho.co/partner/valor-ventures" target="_blank">rho.co/partner/valor-ventures</a></div><div class="Er"><span class="ic">✉️</span><a href="https://luma.com/aq6xzg4s" target="_blank" style="font-weight:600;">RSVP here</a></div></div></div>
+<div class="E"><div class="Et"><span class="Ed">Tuesday, March 10</span><span class="Eb">🍽️ Founder Dinner</span></div><h3>Rho <span>×</span> Drive Capital</h3><div class="Eds"><div class="Er"><span class="ic">📍</span><span>Delbar Buckhead — Atlanta, GA</span></div><div class="Er"><span class="ic">🕡</span><span>6:30 PM – 9:30 PM</span></div><div class="Er"><span class="ic">👥</span><span>Hosted by Avoilan Bingham (Drive) &amp; Olivia Harbin (Rho)</span></div><div class="Er"><span class="ic">🔗</span><a href="https://www.rho.co/partner/drive-capital" target="_blank">rho.co/partner/drive-capital</a></div><div class="Er"><span class="ic">✉️</span><a href="https://luma.com/x108cykr" target="_blank" style="font-weight:600;">RSVP here</a></div></div></div>
+<div class="E"><div class="Et"><span class="Ed">Wednesday, March 11</span><span class="Eb">🍸 Mixer</span></div><h3>Rho Founder &amp; Investor Mixer</h3><div class="Eds"><div class="Er"><span class="ic">📍</span><span>817 West Peachtree St NW, Unit 210, Atlanta, GA 30308</span></div><div class="Er"><span class="ic">🕡</span><span>6:30 PM – 9:00 PM</span></div><div class="Er"><span class="ic">👥</span><span>Hosted by Avoilan Bingham (Drive) &amp; Olivia Harbin (Rho)</span></div><div class="Er"><span class="ic">✉️</span><a href="https://luma.com/ozo1im3a" target="_blank" style="font-weight:600;">RSVP here</a></div></div></div>
+<div class="E"><div class="Et"><span class="Ed">Thursday, March 12</span><span class="Eb">☕ Coffee &amp; Bites</span></div><h3>Rho <span>×</span> Drive Capital</h3><div class="Eds"><div class="Er"><span class="ic">📍</span><span>817 West Peachtree St NW, Unit 210, Atlanta, GA 30308</span></div><div class="Er"><span class="ic">🕘</span><span>9:00 AM – 11:00 AM</span></div><div class="Er"><span class="ic">👥</span><span>Hosted by Avoilan Bingham (Drive) &amp; Olivia Harbin (Rho)</span></div><div class="Er"><span class="ic">🔗</span><a href="https://www.rho.co/partner/drive-capital" target="_blank">rho.co/partner/drive-capital</a></div><div class="Er"><span class="ic">✉️</span><a href="https://luma.com/2o57cr0n" target="_blank" style="font-weight:600;">RSVP here</a></div></div></div>
+<div class="E dep"><div class="Et"><span class="Ed">Friday, March 13</span><span class="Eb">✈️ Departure</span></div><h3>Heading Home</h3><div class="Eds"><div class="Er"><span class="ic">👋</span><span>Safe travels — until next time, ATL.</span></div></div></div>
+</div>
+</div>
+
+<div class="S" style="padding-top:0;">
+<div class="Sl">People</div>
+<div class="St">Who You Should Know</div>
+<div class="Sd">Connect with the people making this week happen.</div>
+<div class="Hg">
+<a href="https://www.linkedin.com/in/olivia-harbin/" target="_blank" class="Hc"><div class="Ha" style="background:linear-gradient(135deg,#1B4D3E,#0D2E25);">OH</div><div class="Hin"><div class="Hn">Olivia Harbin</div><div class="Hr">Advisor, Startup Banking · Rho</div></div><div class="Hl">LinkedIn ↗</div></a>
+<a href="https://www.linkedin.com/in/jacksemrau/" target="_blank" class="Hc"><div class="Ha" style="background:linear-gradient(135deg,#F59E0B,#92400E);">JS</div><div class="Hin"><div class="Hn">Jack Semrau</div><div class="Hr">Cox Enterprises</div></div><div class="Hl">LinkedIn ↗</div></a>
+<a href="https://www.linkedin.com/in/avoilanbingham/" target="_blank" class="Hc"><div class="Ha" style="background:linear-gradient(135deg,#4A90D9,#1a3a5c);">AB</div><div class="Hin"><div class="Hn">Avoilan Bingham</div><div class="Hr">Drive Capital</div></div><div class="Hl">LinkedIn ↗</div></a>
+<a href="https://www.linkedin.com/in/william-l-64b561150/" target="_blank" class="Hc"><div class="Ha" style="background:linear-gradient(135deg,#E85D75,#7a1a2e);">WL</div><div class="Hin"><div class="Hn">William Leonard</div><div class="Hr">Valor Ventures</div></div><div class="Hl">LinkedIn ↗</div></a>
+<a href="https://www.linkedin.com/in/barrygivens/" target="_blank" class="Hc"><div class="Ha" style="background:linear-gradient(135deg,#8B5CF6,#4C1D95);">BG</div><div class="Hin"><div class="Hn">Barry Givens</div><div class="Hr">Collab Capital</div></div><div class="Hl">LinkedIn ↗</div></a>
+</div>
+</div>
+
+<div class="S" style="padding-top:0;">
+<div class="Sl">Platform</div>
+<div class="St">Everything founders need in one place</div>
+<div class="Sd">Cultivate a culture of frugality and focus. Extend your runway, keep spend controlled, and automate finance busywork.</div>
+<div class="Fg">
+<div class="F"><div class="Fi">🏦</div><div class="Ft">Checking &amp; Savings</div><div class="Fd">Fee-free payments, accept investor checks, and manage cash — all in one place.</div></div>
+<div class="F"><div class="Fi">💳</div><div class="Ft">Corporate Cards</div><div class="Fd">Startup-friendly underwriting, up to 2% cashback, and automated spend controls.</div></div>
+<div class="F"><div class="Fi">📈</div><div class="Ft">Treasury</div><div class="Fd">Earn up to 3.93% on idle cash with U.S. Treasury Bills, Morgan Stanley MULSX, or Vanguard VFSTX.</div></div>
+<div class="F"><div class="Fi">📄</div><div class="Ft">Bill Pay</div><div class="Fd">Pay hundreds of vendors in minutes with zero platform fees.</div></div>
+<div class="F"><div class="Fi">🧾</div><div class="Ft">Expense Management</div><div class="Fd">Eliminate expense reports. Automate receipt capture and policy enforcement.</div></div>
+<div class="F"><div class="Fi">🔗</div><div class="Ft">Accounting Integrations</div><div class="Fd">Connect to QuickBooks and NetSuite. Close the books faster.</div></div>
+</div>
+</div>
+
+<div class="S" style="padding-top:0;">
+<div class="Sl">Resources</div>
+<div class="St">Helpful Partner Links</div>
+<div class="Sd">Exclusive Rho partner offers for Atlanta-area founders and portfolio companies.</div>
+<div style="display:flex;flex-direction:column;gap:10px;margin-top:24px;">
+<a href="https://www.rho.co/partner/drive-capital" target="_blank" class="Rl"><span class="Rn">Rho × Drive Capital</span><span class="Rc">View Offer ↗</span></a>
+<a href="https://www.rho.co/partner/valor-ventures" target="_blank" class="Rl"><span class="Rn">Rho × Valor Ventures</span><span class="Rc">View Offer ↗</span></a>
+<a href="https://www.rho.co/partner/collab-capital" target="_blank" class="Rl"><span class="Rn">Rho × Collab Capital</span><span class="Rc">View Offer ↗</span></a>
+<a href="https://www.rho.co/partner/socium-ventures" target="_blank" class="Rl"><span class="Rn">Rho × Socium Ventures</span><span class="Rc">View Offer ↗</span></a>
+<a href="https://www.rho.co/partner/cox-cleantech-accelerator" target="_blank" class="Rl"><span class="Rn">Rho × Cox Cleantech</span><span class="Rc">View Offer ↗</span></a>
+<a href="https://www.rho.co/partner/engage-vc" target="_blank" class="Rl"><span class="Rn">Rho × Engage VC</span><span class="Rc">View Offer ↗</span></a>
+<a href="https://www.rho.co/partner/neighborhood-studios" target="_blank" class="Rl"><span class="Rn">Rho × Neighborhood Studios</span><span class="Rc">View Offer ↗</span></a>
+</div>
+</div>
+
+<div class="Cs">
+<h2>Ready to bank with Rho?</h2>
+<p>Open your account in minutes. No fees, no friction — just a better way to manage your startup's finances.</p>
+<div class="Cb">
+<a href="http://sales.rho.co/olivia_harbin" target="_blank" class="B Bg">Open an Account →</a>
+<a href="https://www.rho.co/startups" target="_blank" class="B Bo">Rho for Startups</a>
+</div>
+</div>
+
+<div class="Ch">
+<div class="Cht">Want to learn more?</div>
+<div class="Chd">Chat with Olivia about how Rho can work for your startup.</div>
+<a href="https://rho.cal.com/olivia.harbin/30-minutes" target="_blank" class="Bc">Book a 30-min chat with Olivia →</a>
+</div>
+
+<div class="Fo">
+<p>Hosted by <a href="https://www.rho.co" target="_blank">Rho</a> in partnership with Drive Capital, Valor Ventures, Collab Capital &amp; Socium Ventures<br>Questions? Reach out to <strong style="color:var(--tx);">Olivia Harbin</strong> · Advisor, Startup Banking</p>
+<p style="margin-top:20px;font-size:10px;color:#B0B0B0;line-height:1.7;max-width:520px;margin-left:auto;margin-right:auto;">Rho is a fintech company, not a bank. Checking and card services are provided by Webster Bank, N.A., member FDIC; savings account services are provided by American Deposit Management Co. and its partner banks. For full terms, rates, and pricing, visit <a href="https://www.rho.co" target="_blank" style="color:#B0B0B0;text-decoration:underline;">rho.co</a>.</p>
+</div>
+
+</div>
+</body>
+</html>
